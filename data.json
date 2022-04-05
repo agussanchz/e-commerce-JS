@@ -1,0 +1,44 @@
+[
+    {
+    "id": 1,
+    "nombre": "iPhone 7 Plus",
+    "precio": 300,
+    "imagen": "../media/iphone7-8.png"
+    },
+
+    {
+    "id": 2,
+    "nombre": "iPhone X",
+    "precio": 700,
+    "imagen": "../media/iphoneX.png"
+    },
+
+    {
+    "id": 3,
+    "nombre": "iPhone XR",
+    "precio": 900,
+    "imagen": "../media/iphoneXR.png"
+    },
+
+    {
+    "id": 4,
+    "nombre": "iPhone 13",
+    "precio": 1200,
+    "imagen": "../media/iphone13.png"
+    },
+
+    {
+    "id": 5,
+    "nombre": "iPad",
+    "precio": 1000,
+    "imagen": "../media/ipad.png"
+    },
+
+    {
+    "id": 6,
+    "nombre": "AirPods",
+    "precio": 750,
+    "imagen": "../media/airpods.png"
+    }
+
+]
