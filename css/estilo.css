@@ -15,7 +15,7 @@ body {
 
 /*Estilo del header*/
 header{
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.5);
     position: fixed;
     width: 100%;
     top:0;
@@ -122,6 +122,99 @@ header{
 }
 .card-body p {
     text-align: center;
+}
+
+
+
+/*Estilo seccion Nosotros*/
+
+.titulo-nosotros {
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-nosotros h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-shadow: 10px 10px 2px black;
+    font-size: 70px;
+    color:rgb(220, 231, 109);
+}
+
+.parrafo-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo-nosotros{
+    font-family: 'Oswald', sans-serif;
+    color:whitesmoke;
+    font-size: 25px;
+}
+
+
+.formulario {
+    margin: auto;
+    background-color: rgba(216, 225, 29, 0.4);
+    opacity: 0,5;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+.formulario h2 {
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    margin: auto;
+    font-size: 35px;
+    color: black;
+}
+
+.formulario input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+.formulario textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+/*Estilo carrito*/
+.carrito-vacio p {
+    text-align: center;
+    text-shadow: 10px 10px 2px black;
+    margin: auto;
+    font-size: 100px;
+    color:rgb(230, 230, 25);
+
+}
+
+.carrito-vacio i{
+    display: flex;
+    justify-content: center;
+    color:rgb(230, 230, 25);
+    font-size: 100px;
+    text-shadow: 10px 10px 2px black;
+}
+
+.section-carrito .card{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
 }
 
 
