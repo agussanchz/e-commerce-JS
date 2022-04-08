@@ -150,13 +150,13 @@ header{
 .parrafo-nosotros{
     font-family: 'Oswald', sans-serif;
     color:whitesmoke;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
 .formulario {
     margin: auto;
-    background-color: rgba(216, 225, 29, 0.4);
+    background-color: rgba(147, 148, 139, 0.4);
     opacity: 0,5;
     padding: 10px 20px;
     box-sizing: border-box;
