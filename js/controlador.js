@@ -3,12 +3,18 @@ window.addEventListener("hashchange", () => {
     router(window.location.hash);
 });
 
+/*----------------------------------
+    VARIABLES
+-----------------------------------*/
 let contenidoInicio = document.querySelector(".contenido-inicio");
 let contenidoTienda = document.querySelector("#tienda");
 let tituloTienda = document.querySelector("#titulo-tienda");
 let contenidoNosotros = document.querySelector("#nosotros");
 let contenidoCarrito = document.querySelector("#carrito");
 
+/*----------------------------------
+    Funcion controladora del menu
+-----------------------------------*/
 const router = (hash) => {
     contenidoTienda.innerHTML = "";
     tituloTienda.innerHTML = "";
@@ -33,6 +39,9 @@ const router = (hash) => {
     }
 };
 
+/*----------------------------------
+    Evento seccion tienda
+-----------------------------------*/
 contenidoTienda.addEventListener("click", async (e) => {
     if (e.target.classList.contains("comprar")) {
         const carrito = traerDeLocalStorage("carrito");
@@ -47,6 +56,9 @@ contenidoTienda.addEventListener("click", async (e) => {
     } 
 });
 
+/*----------------------------------
+    Evento seccion carrito
+-----------------------------------*/
 contenidoCarrito.addEventListener("click", (e) => {
     if (e.target.classList.contains("eliminar")) {
         const id = e.target.id;

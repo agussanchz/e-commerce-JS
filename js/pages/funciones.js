@@ -1,3 +1,7 @@
+/*----------------------------------
+    FUNCIONES GENERALES
+-----------------------------------*/
+
 const traerDeLocalStorage = (key) => {
     let carrito = [];
     if (localStorage.getItem(key)) {
