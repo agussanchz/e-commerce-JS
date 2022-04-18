@@ -31,5 +31,5 @@ let nosotros = () => {
                             </div>
 
     `   
-    return contenidoNosotros
+    return contenidoNosotros 
 }
